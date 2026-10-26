@@ -106,7 +106,7 @@ final class ValidatorTest extends TestCase
         ]));
     }
 
-    
+    public function testContactoTelefonoEsOpcional(): void
     {
         $e = Validator::validateContact([
             'nombre' => 'Ana', 'email' => 'ana@correo.com', 'telefono' => '', 'mensaje' => 'Mensaje suficientemente largo',
