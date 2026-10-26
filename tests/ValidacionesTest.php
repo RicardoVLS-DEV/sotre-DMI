@@ -56,7 +56,7 @@ final class ValidacionesTest extends TestCase
     public static function telefonoValidos(): array
     {
         return [
-            'solo dígitos' => ['8781234567'],
+            'solo dígitos' => ['878'],
             'con +52'      => ['+52 878 123 4567'],
             'con guiones'  => ['878-123-4567'],
         ];
