@@ -10,7 +10,7 @@ final class ProductRepositoryTest extends TestCase
 {
     private string $file;
 
-    function setUp(): void
+    protected function setUp(): void
     {
         $this->file = tempnam(sys_get_temp_dir(), 'prod');
         file_put_contents($this->file, json_encode([
