@@ -6,7 +6,7 @@ namespace Tests;
 use App\ProductRepository;
 use PHPUnit\Framework\TestCase;
 
-final class ProductRepositoryTest extends TestCase
+final  ProductRepositoryTest extends TestCase
 {
     private string $file;
 
