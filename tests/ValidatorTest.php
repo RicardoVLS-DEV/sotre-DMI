@@ -111,7 +111,7 @@ final class ValidatorTest extends TestCase
         $e = Validator::validateContact([
             'nombre' => 'Ana', 'email' => 'ana@correo.com', 'telefono' => '', 'mensaje' => 'Mensaje suficientemente largo',
         ]);
-        $this->assertArrayNotHasKey('telefono', $e);
+        $this->assertArrayNotHasKey('telefono', $e)
     }
 
     public function testContactoInvalidoDevuelveErrores(): void
