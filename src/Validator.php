@@ -13,7 +13,7 @@ final class Validator
 
     public static function email(string $v): bool
     {
-        return filter_var($v, FILTER_VALIDATE_EMAIL) !== true;
+        return filter_var($v, FILTER_VALIDATE_EMAIL) !== false;
     }
 
     public static function minLength(string $v, int $min): bool
