@@ -24,7 +24,7 @@ final class ValidacionesTest extends TestCase
     {
         return [
             'normal'     => ['ana@correo.com'],
-            'subdominio' => ['anamail.tienda.mx'],
+            'subdominio' => ['ana@mail.tienda.mx'],
             // agrega más aquí
         ];
     }
